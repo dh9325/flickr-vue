@@ -38,9 +38,6 @@
         },
       },
     },
-    mounted() {
-      // console.log(this.photo);
-    },
     methods: {
       getAuthorName: (author) => {
         const matches = author.match(/".+"/);
